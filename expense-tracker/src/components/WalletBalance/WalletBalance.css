@@ -1,0 +1,63 @@
+.wallet-balance {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2C2C2C;
+    padding: 20px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .wallet-balance h2 {
+    margin: 10px 0;
+    font-size: 2rem;
+  }
+  
+  .add-income-button {
+    padding: 12px 20px;
+    background-color: #34C94B;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .add-income-button:hover {
+    background-color: #28A745;
+  }
+  
+  .expenses-summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2C2C2C;
+    padding: 20px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .expenses-summary h2 {
+    margin: 10px 0;
+    font-size: 2rem;
+  }
+  
+  .add-expense-button {
+    padding: 12px 20px;
+    background-color: #FF5733;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .add-expense-button:hover {
+    background-color: #E04B2C;
+  }

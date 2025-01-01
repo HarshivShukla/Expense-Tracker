@@ -1,0 +1,32 @@
+.expense-list {
+    margin: 20px;
+    padding: 10px;
+    background-color: #2C2C2C;
+    border-radius: 8px;
+    color: white;
+  }
+  
+  .expense-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .expense-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #444;
+  }
+  
+  .expense-list li button {
+    background-color: #FF5733;
+    border: none;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .expense-list li button:hover {
+    background-color: #E04B2C;
+  }
